@@ -21,6 +21,7 @@
 		9E73C18C18BB53300040416C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E73C16E18BB53300040416C /* UIKit.framework */; };
 		9E73C19418BB53300040416C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E73C19218BB53300040416C /* InfoPlist.strings */; };
 		9E73C19618BB53300040416C /* Learn001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73C19518BB53300040416C /* Learn001Tests.m */; };
+		9E73C1A418BB60680040416C /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73C1A318BB60680040416C /* HelpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9E73C19118BB53300040416C /* Learn001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Learn001Tests-Info.plist"; sourceTree = "<group>"; };
 		9E73C19318BB53300040416C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E73C19518BB53300040416C /* Learn001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Learn001Tests.m; sourceTree = "<group>"; };
+		9E73C1A218BB60680040416C /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		9E73C1A318BB60680040416C /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				9E73C18018BB53300040416C /* ViewController.m */,
 				9E73C18218BB53300040416C /* Images.xcassets */,
 				9E73C17118BB53300040416C /* Supporting Files */,
+				9E73C1A218BB60680040416C /* HelpViewController.h */,
+				9E73C1A318BB60680040416C /* HelpViewController.m */,
 			);
 			path = Learn001;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				9E73C18118BB53300040416C /* ViewController.m in Sources */,
 				9E73C17B18BB53300040416C /* AppDelegate.m in Sources */,
 				9E73C17718BB53300040416C /* main.m in Sources */,
+				9E73C1A418BB60680040416C /* HelpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
